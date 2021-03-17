@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contactos</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+  .affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+  .navbar {
+      margin-bottom: 0px;
+  }
+
+  .affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
+
+  #section1 {padding-top:50px;height:auto;color: black; background-color: #fff;}
+  #section2 {padding-top:50px;height:500px;color: rgb(0, 0, 0); background-color: #fff;}
+  #section3 {padding-top:50px;height:500px;color:rgb(0, 0, 0) ; background-color: #fff;}
+  
+  
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<div class="container-fluid" style="background-color:#fff;">
+  <img style="padding-bottom:50px" src="../images/logo.png" alt="">
+
+</div>
+
+<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="200">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a  class="navbar-brand" href="../Index.html">Menú</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="../html/Galería.html">Galería</a></li>
+          <li><a href="../html/Blog.html">Blog</a></li>
+          <li><a href="../html/Contactos.html">Contactos</a></li>
+          <li><a href="../html/Quiénes somos.html">¿Quiénes somos?</a></li>
+          
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+<br>
+
+
+
+          
+</div>
+
+<div class="container">
+
+  <div class="row">
+
+      <div class="col-sm-6">
+          <form class="need-validation" method="post">
+              <!-- <form class="was-validated" method="POST"> -->
+
+              <div class="form-group">
+                  <label for="uname">Nombre:</label>
+                  <input type="text" class="form-control" id="uname" placeholder="Ingrese nombre" name="nombre"
+                      required>
+                 
+                
+              </div>
+
+              <div class="form-group">
+                  <label for="lastname">Apellido:</label>
+                  <input type="text" class="form-control" id="lastname" placeholder="Ingrese apellido"
+                      name="apellido" required>
+                
+                 
+              </div>
+
+              <div class="form-group">
+                  <label for="email">Email address:</label>
+                  <input type="email" class="form-control" placeholder="Ingrese email" id="email" name="email"
+                      required>
+                
+              </div>
+
+              <div class="form-group">
+                  <label for="comment">Comentario:</label>
+                  <textarea class="form-control" rows="4" id="comment" name="mensaje" required></textarea>
+              </div>
+
+              <div class="form-group form-check">
+                  <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" name="remember" required> Acepto términos
+                      
+                     
+                  </label>
+              </div>
+
+              <div class="form-group">
+               
+                <input type="file" class="form-control" >
+               
+              
+            </div>
+
+              <button type="submit" class="btn btn-success">Enviar</button>
+
+          </form>
+      </div>
+
+
+
+      <div class="col-sm-6 mt-0">
+          <h2 class="titulo">Mapa del sitio</h2>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2804.1755374414856!2d-75.56868687625762!3d6.302689178480298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442f243b1e96b1%3A0xa03cd528ebdb44f7!2sSENA%2C%20Pedregal%2C%20Centro%20Para%20El%20Desarrollo%20Del%20H%C3%A1bitat%20Y%20La%20Construcci%C3%B3n!5e0!3m2!1ses!2sco!4v1607375605780!5m2!1ses!2sco" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>    
+      </div>
+
+  </div>
+</div>
+</div>
+
+
+<div class="col-sm-6 mt-0">
+  <a href="../html/Política.html"> <h6 class="footer">Todos los derechos reservados</h6> </a>
+  <a target="_blank" href="https://www.facebook.com/DPM-100381955176597"  >  <img style="width:40px;height:40px" src="../images/Facebook-2.png" alt=""> </a>
+  <a target="_blank" href="https://www.instagram.com/desvalorizacionpm/?hl=es-la">     <img style="width:40px;height:40px" src="../images/instagram.png" alt=""> </a>
+          
+</div>
+
+</body>
+</html>
